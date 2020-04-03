@@ -6,13 +6,8 @@
 ## AI & Voice Signal Processing Lecture  
   
  * Orientation  
- * 응용1  
- * 응용2    
- * DSP1    
- * DSP2   
- * DSP3  
- * DSP4  
- * DSP5
+ * [응용1]() [응용2]()  
+ * [DSP1]() [DSP2]() [DSP3]() [DSP4]() [DSP5]()    
   
 ## SPOKEN LANGUAGE LAB
   
