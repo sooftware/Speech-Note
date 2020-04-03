@@ -5,7 +5,7 @@
 
 ## AI & Voice Signal Processing Lecture  
   
- * Orientation  
+ * [Orientation]()  
  * [응용1]() [응용2]()  
  * [DSP1]() [DSP2]() [DSP3]() [DSP4]() [DSP5]()    
   
