@@ -1,6 +1,6 @@
 # Speech Note
   
-음성인식 관련 공부 자료 저장소
+Speech 관련 공부 자료 저장소
 
 ## AI & Voice Signal Processing Lecture  
   
