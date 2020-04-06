@@ -1,4 +1,4 @@
-# 「Ai & Voice Signal Processing」 Lecture: Orientation  
+# 「Ai & Voice Signal Processing」 Lecture: Application 1  
   
 ## 음성/오디오/sound 특성
 
