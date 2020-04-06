@@ -1,5 +1,7 @@
 # 「Ai & Voice Signal Processing」 Lecture: Application 1  
   
+본 글은 광운대학교 전자공학과 박호종 교수님의 강의를 듣고 작성되었음을 밝힙니다.  
+
 ## 음성/오디오/sound 특성
 
 * 방송 / 통신 / 엔터테인먼트의 핵심 기술

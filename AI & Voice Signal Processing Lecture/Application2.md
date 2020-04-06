@@ -1,5 +1,7 @@
 # 「AI & Voice Signal Processing」 Lecture : Application 2
   
+본 글은 광운대학교 전자공학과 박호종 교수님의 강의를 듣고 작성되었음을 밝힙니다.  
+
 ## Speaker Verification and Identification
   
 ### Verification (인증)
@@ -88,6 +90,50 @@ Robot
   
 ![image](https://user-images.githubusercontent.com/42150335/78555846-d3866480-7848-11ea-9abf-fa4b18b994c6.png)
   
+## 디지털 오디오 방송
+  
+### 객체(Object) 기반 디지털 오디오 방송  
+
+![image](https://user-images.githubusercontent.com/42150335/78557966-beabd000-784c-11ea-9d56-ca474c336ae5.png)
+
+
+* 오디오 객체별로 신호 전송  
+  
+* 사용자가 sound를 임의로 선택하여 청취  
+  + Sports 중계 방송, 음악 방송, 드라마  
+  + 언어 선택 (외국어로 방송 청취)
+  + 입체 음향 청취
+    
+사용자는 원하는 오디오를 선택하여 청취  
+  
+## 잡음 제거
+  
+![image](https://user-images.githubusercontent.com/42150335/78558545-bb651400-784d-11ea-842a-9565d373a9ea.png)
+  
+잡음을 제거하는 간단한 방법으로 마이크를 여러개 설치한다.  
+  
+Active Noise Cancellation (ANC)  
+=> Airpod Pro에 탑재된 기술 (주변 소음 제거)  
+  
+![image](https://user-images.githubusercontent.com/42150335/78558732-1860ca00-784e-11ea-9656-f8eab0578c1d.png)
+
+들어오는 소리의 파형과 반대되는 파형을 더해줌으로써 0으로 만들어줌
+  
+## 기타
+  
+### 신호 복원 : 왜곡되고 변형된 신호를 원 신호로 복원  
+  
+### Sound type 분리  
+  
+### Multimedia DB에서 Audio 특성으로 원하는 장면 검색  
+  
+### 의료 신호처리  
+
+### 음악 치료   
+  
+### 음향 장비  
+  
+
 
 
 
