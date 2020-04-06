@@ -7,11 +7,11 @@
   
  * [Application 1](https://github.com/sooftware/Speech-Note/blob/master/AI%20%26%20Voice%20Signal%20Processing%20Lecture/Application1.md) 
  * [Application 2](https://github.com/sooftware/Speech-Note/blob/master/AI%20%26%20Voice%20Signal%20Processing%20Lecture/Application2.md)  
- * [DSP1]() 
- * [DSP2]() 
- * [DSP3]() 
- * [DSP4]() 
- * [DSP5]()    
+ * [DSP 1]() 
+ * [DSP 2]() 
+ * [DSP 3]() 
+ * [DSP 4]() 
+ * [DSP 5]()    
   
 ## Kaldi
   
