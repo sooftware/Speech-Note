@@ -1,4 +1,4 @@
-# 「AI & Voice Signal Processing」 Lecture : DSP 1
+# 「AI & Voice Signal Processing」 Lecture : DSP 2
   
 본 글은 광운대학교 전자공학과 박호종 교수님의 강의를 듣고 작성되었음을 밝힙니다.  
   
