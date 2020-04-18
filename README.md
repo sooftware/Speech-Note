@@ -9,6 +9,7 @@
  * [Application 2](https://github.com/sooftware/Speech-Note/blob/master/AI%20%26%20Voice%20Signal%20Processing%20Lecture/Application2.md)  
  * [DSP Review 1](https://github.com/sooftware/Speech-Note/blob/master/AI%20%26%20Voice%20Signal%20Processing%20Lecture/DSP1.md)   
  * [DSP Review 2](https://github.com/sooftware/Speech-Note/blob/master/AI%20%26%20Voice%20Signal%20Processing%20Lecture/DSP2.md)  
+ * [DSP for Audio](https://github.com/sooftware/Speech-Note/blob/master/AI%20%26%20Voice%20Signal%20Processing%20Lecture/DSP-for-Audio.md)  
   
 ## Kaldi
   
