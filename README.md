@@ -13,6 +13,8 @@
   
 ## Kaldi
   
+* [Kaldi Tutorial](https://github.com/sooftware/Speech-Note/blob/master/Kaldi/Kaldi%20Tutorial.md)  
+  
 ## Paper Review
   
 * \[ 2014.11 \] [**Voice Recognition Using MFCC Algorithm**](https://blog.naver.com/sooftware/221661644808)
