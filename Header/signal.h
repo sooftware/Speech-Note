@@ -1,5 +1,5 @@
 /*
-	code made by Soohwan Kim
+  	code made by Soohwan Kim
 
 	- resume: https://sooftware.github.io/
 	- github profile: https://github.com/sooftware
@@ -11,7 +11,6 @@
 #include <math.h>
 
 #define SHORT_SIZE 	2
-#define N_READ 		1
 #define PI 			3.14
 
 float* get_window(char* win_type, int window_size);
@@ -75,7 +74,8 @@ int dft(float signal[], float spec_real[], float spec_imag[], float spec_magn[],
 			spec_real[k] += signal[n] * cos(2 * PI * k * n / N_POINT);
 			spec_imag[k] -= signal[n] * sin(2 * PI * k * n / N_POINT);
 		}
-		spec_magn[k] = sqrt(pow(spec_real[k], 2) + pow(spec_imag[k], 2));
+		spec_magn[k] = pow(spec_real[k], 2) + pow(spec_imag[k], 2);
+		spec_magn[k] = sqrt(spec_magn[k]);
 	}
 
 	free(window);

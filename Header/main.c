@@ -9,33 +9,34 @@
 
 #define N_POINT			1600  
 #define N_EXG 			8
+#define N_READ 			1
 #define SAMPLE_RATE 	16000
 
-int skip[N_EXG] = { 
-	0.3 * SAMPLE_RATE,   
-	0.5 * SAMPLE_RATE,   
-	0.2 * SAMPLE_RATE,   
-	0.1 * SAMPLE_RATE,   
-	0.1 * SAMPLE_RATE,   
-	0.2 * SAMPLE_RATE,   
-	0.2 * SAMPLE_RATE,   
-	0.1 * SAMPLE_RATE    
-};
 FILE* fin;
 float comp_freq(int index);
+int skip[N_EXG] = { 
+	SAMPLE_RATE * 0.28,   // 0.35
+	SAMPLE_RATE * 0.4,   // 0.85
+	SAMPLE_RATE * 0.22,   // 1.17
+	SAMPLE_RATE * 0.16,   // 1.43
+	SAMPLE_RATE * 0.1,   // 1.62
+	SAMPLE_RATE * 0.07,   // 1.87
+	SAMPLE_RATE * 0.17,   // 2.14
+	SAMPLE_RATE * 0.18    // 2.42
+};
 
 
 int main() {
 	float note_freq[N_EXG] = { 0.0, };
 
-	fopen_s(&fin, "input16kraw", "rb");
+	fopen_s(&fin, "input16k.raw", "rb");
 
 	for (int i = 0; i < N_EXG; i++){
 		note_freq[i] = comp_freq(i);
-		printf("%d ", note_freq[i]);
+		printf("%.2f ", note_freq[i]);
 	}
 
-
+	system("pause");
 	fclose(fin);
 	return 0;
 }
@@ -43,14 +44,10 @@ int main() {
 
 float comp_freq(int index) {
 	float signal[N_POINT];
-	float spec_real[N_POINT];
-	float spec_imag[N_POINT];
-	float spec_magn[N_POINT];
+	float spec_real[N_POINT], spec_imag[N_POINT], spec_magn[N_POINT];
 	float freq = 0.0;
 	short data = 0;
 	int k = 0;
-
-	printf("%d", skip[index]);
 
 	/* Skip to the start */
 	for (int n = 0; n < skip[index]; n++) 
