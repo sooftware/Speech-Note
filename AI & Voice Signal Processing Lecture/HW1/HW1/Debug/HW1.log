@@ -1,0 +1,12 @@
+﻿  main.c
+c:\users\soohwankim\desktop\ai-speech\hw1\hw1\signal.h(26): warning C4013: 'strcmp'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\soohwankim\desktop\ai-speech\hw1\hw1\signal.h(28): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\soohwankim\desktop\ai-speech\hw1\hw1\signal.h(32): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\soohwankim\desktop\ai-speech\hw1\hw1\signal.h(40): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\soohwankim\desktop\ai-speech\hw1\hw1\signal.h(44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\soohwankim\desktop\ai-speech\hw1\hw1\signal.h(74): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\soohwankim\desktop\ai-speech\hw1\hw1\signal.h(75): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\soohwankim\desktop\ai-speech\hw1\hw1\signal.h(77): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\soohwankim\desktop\ai-speech\hw1\hw1\signal.h(78): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\soohwankim\desktop\ai-speech\hw1\hw1\main.c(17): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  HW1.vcxproj -> C:\Users\SooHwanKim\Desktop\AI-Speech\HW1\Debug\HW1.exe
